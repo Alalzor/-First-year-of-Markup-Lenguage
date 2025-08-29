@@ -1,0 +1,31 @@
+
+[ 
+    {"IES": {"nombre":"CeedCV", "url":"http://ceedcv.es/", 
+    "ciclos":[
+        {
+            "ciclo":[
+                {
+                "horario":"Noctuno",
+                 "Nombre":"Administracion de Sistemas Informaticos en Red",
+                 "grado":"Superior",
+                 "Año":"2012"
+                },
+                {
+                 "horario":"Noctuno",
+                 "Nombre":"Desarrollo de Aplicaciones Web",
+                  "grado":"Superior",
+                 "Año":"2012"
+                },
+                {
+                 "horario":"Noctuno",
+                 "Nombre":"Sistemas microInformaticos en red",
+                 "grado":"Medio",
+                  "Año":"2009"
+                }
+            ]
+        }
+]
+}
+}    
+]
+

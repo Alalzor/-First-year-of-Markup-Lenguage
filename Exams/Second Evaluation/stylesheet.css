@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(255, 249, 194);
+    margin: 0px;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+/*Nose porque no se ha podido cargar la fuente ni linkeando en el css ni con el link en el*/
+.title{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.title h1{
+    padding: 20px;
+    margin-top: 50px;
+    font-family: 'Dancing Script';
+    font-style: italic;
+    font-size: 1.5em;
+}
+.navegacion{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(190, 190, 190);
+    margin: 0px;
+    box-sizing: border-box;
+}
+.lista{
+    background-color: rgb(149, 149, 149);
+    justify-content: center;
+    border: 1px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+
+    padding: 0%;
+}
+.lista ul a{
+    text-decoration: none;
+    color: black;
+}
+.lista ul a:hover{
+    font-size: larger;
+    transition: 0.5 ease;
+}
+.navegacion ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 0%;
+}
+/* Se ha intentado hacer el desplegable a partir del li= formacion y sucessivamente con un display none, un hover para activarle el flex y los efectos*/
+.formacion ul{
+    display: none;
+}
+.enlaces{
+    display: none;
+}
+.formacion  ul:hover{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    border: 1px solid orange;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:rgb(149, 149, 149) ;
+}
+/*Nose porque aplicando la formula que pone en el examen no me cambia nada */
+@media (max-widht:900px){
+  /*Se ha intentado hacer un div que engloble los dos items con sus hijos y ponerle un flex
+  Pero direccion de columna */  
+    .media{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        gap: 20px;
+    }
+}
+
+
+div{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+}

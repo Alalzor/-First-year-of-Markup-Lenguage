@@ -1,0 +1,438 @@
+body{
+    margin: 0px;
+    font-family: 'Open sans';
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #216288;
+    float: left;
+}
+.imagen1{
+    width: 50%;
+    float: left;  
+}
+.imagen1 img{
+    float: right;
+    margin-right: 200px;
+}
+.texto{
+    width: 50%;
+    float: left;
+    justify-content: center;   
+}
+.texto p{
+    text-align: left;
+    margin-left: 17%;
+    
+}
+.texto ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 29%;
+}
+.texto ul li{
+    display: inline-block;
+    
+}
+.texto ul li a{color: black;}
+.texto ul li a:link{text-decoration: none;}
+.texto ul li a:hover{
+    font-size: 1.2em;
+    transition: 0.3s ease;
+}
+/*MENU*/
+.menu{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: yellow;
+}
+.menu nav ul{
+    list-style:none;
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+}
+.menu nav ul li {
+    display: inline-block;
+    margin: 5px;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.menu nav ul li a{
+    font-family: Impact;
+    color: black;
+    padding: 17.5px 5px;
+  }
+  .menu nav ul li a:hover{
+    background-color: black;
+    color: aqua;
+  }
+/*Estilo parrafo y videos index*/
+    
+.content{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    background-color: white;
+    height: 350px;
+    text-align: center;
+}
+.jornadas{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.content h2{
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+.jornadas p{
+    text-align: justify;
+    margin-left: 60%;
+    padding: 10px;
+}
+.video{
+    width: 30%;
+    float: left;   
+}
+.video video{
+    float: left;
+    padding: 10px;
+}
+/*Estilo parrafos donde y cuando index*/
+.content2{
+  font-family: sans-serif;  
+    width: 100%;
+    height: 300px;
+    background-color:  #e5ffd4;
+     float: left;
+     justify-content: center;
+}
+.donde{
+    width: 20%;
+    float: left;
+    margin-left: 30%;
+}
+.donde h2{
+    padding: 2px;
+    margin: 5px;
+    margin-bottom: 20px;
+    inline-size: 70%;
+    border-bottom: dotted orange;
+}
+.email{
+    padding: 2px;
+    color: grey;
+    border-bottom: dotted grey 1px;
+    margin-bottom: 5px;
+}
+.donde a i{
+    margin-top: 10px;
+    padding: 2px;
+    color: black;
+}
+.donde a:hover{
+    font-size: 1.2em;
+    transition: 0.3s ease;
+
+}
+.cuando{
+  font-family: sans-serif;
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+}
+.cuando h2{
+    padding: 2px;
+    margin: 5px;
+    margin-bottom: 20px;
+    inline-size: 50%;
+    border-bottom: dotted orange;
+
+}
+.cuando .negrita{
+    margin-top: 20px;
+    font-weight: bold;
+    word-spacing: 20px ;
+}
+
+/*Estilo imagenes index*/
+.imagenes{
+    font-family: sans-serif;
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    float: left;
+    
+}
+ .fila{
+    width: 100%;
+    height: 190px;
+    position: relative;
+    left: 385px;
+ }
+.fila2{
+    width: 100%;
+
+}
+figure{
+    text-align: center;
+    width: 20%;
+    margin: 1px;
+    padding: 1px;
+    float: left;
+}
+.imagenes h2{
+    height: 50px;
+    width: 100%;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+}
+/*Footer*/
+.footer{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+.primer{
+    width: 80%;
+}
+.footer span {
+    font-weight: bold;
+}
+/*Estilo  programa y tabla*/
+
+table td {
+    border-collapse: collapse;
+  }
+  table {
+    width: 100%;
+  }
+  table th{
+    background-color: greenyellow;
+    border: 1cap;
+  }
+  
+  /*Estilo parrafo  programacion*/
+  .article{
+    width: 100%;
+    float: left;
+  }
+  .tablaprogramacion h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: 'Fjalla One';
+    margin-bottom: 20px;
+  }
+  table{
+    padding: 40px 200px 40px 100px;
+    width: 100%;
+  }
+  table thead tr th{
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  tbody{
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+   tbody .titulos th{
+    background-color: #b8d414;
+    text-align: left;
+    font-size: 18px;
+  }
+  tr:nth-child(odd){
+    background-color: #e5ffd4;
+  }
+  tbody .row3 td{
+    border-bottom: 2px solid black;
+  }
+/*
+  tbody .row2 td{
+    background-color: #e5ffd4;
+  }
+  tbody .row3 td{
+    background-color: #e5ffd4;
+    border-bottom: 2px solid black;
+  }
+  tbody .row4 td{
+    background-color: #e5ffd4;
+  }
+  */
+  tfoot tr {
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  tfoot  tr td a{
+    color: grey;
+    border-bottom: 1px dotted grey;
+  }
+
+.container{
+   justify-content: center;
+  }
+  .programaccion{
+    float: left;
+    width: 100%;
+    background-color: #e5ffd4;
+  }
+  .programaccion h2{
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Fjalla One';
+    margin-top: 100px;
+    margin-left: 15%;
+
+  }
+  #programacion1{
+    width: 20%;
+    float: left;
+    padding: 20px;
+    margin-left: 18%;
+}
+#programacion2{
+    float: left;
+    width: 20%;
+    padding: 20px;
+    margin-left: 10%;
+    
+}
+  #programacion1 h4{
+    inline-size: fit-content;
+    background-color: #b8d414;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+  }
+  #programacion1 ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  #programacion1 ul li{
+    margin: 20px 0px;
+  }
+  #programacion1 span {
+    font-weight: bold;
+  }
+  #programacion2 h4{
+    inline-size: fit-content;
+    background-color: #b8d414;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+  }
+  #programacion2 ul{
+    list-style: none;
+    padding: 0px;
+  }
+  #programacion1 ol li{
+    margin: 10px;
+  }
+  #programacion2 ol li{
+    margin: 10px;
+  }
+  #programacion2 ul li{
+    margin: 20px;
+  }
+  #programacion2 span {
+    font-weight: bold;
+  }
+  #footer2{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+   }
+  #footer2 p{
+    width: 50%;
+    font-family: 'Fjalla One';
+    margin-left: 15%;
+   }
+
+  /*Formulario estilo*/
+  .tituloformulario{
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .tituloformulario h1{
+    margin: 0%;
+    width: 100%;
+    float: left;
+  }
+  .formulario{
+    width: 100%;
+  
+  }
+  input[type="text"]:valid{
+    border: none;
+    outline: 2px solid yellow;
+    border-radius: 5px;
+  }
+  input[type="text"]:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+  }
+  input[type="number"]::-webkit-inner-spin-button{
+    display: none;
+  }
+  input[type="email"]:valid{
+    border: none;
+    outline: 2px solid yellow;
+    border-radius: 5px;
+  }
+  input[type="email"]:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+  }
+  textarea{
+    background-color: ivory;
+    border-radius: 10px;
+
+  }
+  fieldset{
+    border-radius: 6px;
+    background-color: ivory;
+    width: 30%;
+  }
+  select {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: ivory;
+  }
+   input[type="submit"]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  

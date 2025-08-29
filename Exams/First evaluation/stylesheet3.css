@@ -1,0 +1,211 @@
+/* 1 PREGUNTA */
+.cabezera{
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.formulario{
+    float: left;
+    width: 25%;
+    background-color: lightgray;
+    height: 620px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px grey ;
+    padding-left: 20px;
+    margin-left: 38%;
+}
+.cuerpo label{
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;  
+    border: 1px black; 
+}
+.relleno{
+    width: 95%;
+    border-radius: 10px;
+    height: 30px;
+}
+.relleno label::selection{
+    border: 2px rgb(216, 148, 216);
+}
+.enviar{
+    float: left;
+    border: 1px solid;
+    background-color: rgb(216, 148, 216);
+    border-radius: 10px;
+    width: 15%;
+    height: 40px;    
+}
+.radio{
+    display: inline-block;
+    margin-left: 0px;
+    border-radius: 10px;
+    width: 100%;    
+}
+.radio input:checked{
+    font-weight: bold;
+}
+
+.opciones{
+    width: 90%;
+    float: left;
+}
+.opciones label:active{
+    font-weight: bold;
+}
+.opciones{
+    float: left;
+}
+/*2 pregunta*/
+body{
+    margin: 0px;
+}
+.header{
+    background-color: green;
+    width: 100%;
+    float: left;
+    height: 100px;
+    text-align: center;
+}
+.header header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    text-shadow: 1px 1px 1px lightseagreen;
+}
+.lista{
+    width: 20%;
+    float: left;
+    height: 600px;
+}
+.lista h1{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 1px lightseagreen;
+}
+.texto{
+    float: left;
+    width: 45%;
+    height: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+span{
+    font-style: italic;
+}
+.texto h1{
+    text-shadow: 1px 1px 1px lightseagreen;
+    font-size: 30px;
+}
+.texto h2{
+    text-shadow: 1px 1px 1px lightseagreen;
+}
+.texto p{
+    padding: 5px;
+}
+.textopri{
+    float: left;
+    width: 100%;
+}
+.textodos{
+    float: left;
+    width: 100%;
+    height: 450px;
+}
+.textodos h1{
+    text-shadow: 1px 1px 1px lightseagreen;
+    font-size: 30px; 
+}
+.textodos h2{
+    text-shadow: 1px 1px 1px lightseagreen;
+}
+.textotodos ul li{
+    list-style-type: decimal-leading-zero;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imagenes{
+    float: left;
+    width: 15%;
+    margin-left: 15px;
+    height: 700px;
+}
+.imagenes div{
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background-color: lightgrey;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow:  10px 10px 1px 1px lightseagreen; 
+}
+.busqueda{
+    float: left;
+    width: 15%;
+    height: 700px;
+    padding: 10px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.busqueda h3{
+    text-shadow: 1px 1px 1px lightseagreen;
+}
+.menu{
+    float: left;
+    width: 100%;
+    background-color: lightgrey;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.menu nav ul ol{
+    display: inline-block
+}
+.menu nav ul ol a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.footer{
+    float: left;
+    width: 100%;
+    height: 180px;
+    color: white;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.footer footer p{
+    padding: 50px;
+}
+
+/*ejercicio3*/
+table{
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px 1px lightgrey;
+    background-color: lightgrey;
+}
+table th{
+    border: 1px solid;
+    padding:2px;
+    background-color: lightblue;
+    height: 25px;
+}
+.hidden{
+    visibility: hidden;
+}
+table tr td{
+    border: 1px solid;  
+}
+tr:nth-child(2n){
+    background-color: lightcyan;
+}
+/*NO HE SABIDO COMO HACER LA TABLA MUY BIEN, NOSE SI SE PUEDE HACER DOS TH CON EL TITULO Y CON UN COLSPAN DE 4
+Y HACER DOS SUBTABLAS DENTRO CON LOS REQUERIMIENTOS DE ESTAS, AL FINAL NO ME DABA TIEMPO, LO HE INTENTADO*/

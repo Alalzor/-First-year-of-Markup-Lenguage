@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion</title>
+    <link rel="stylesheet" href="stylesheet2.css">
+    <script src="https://kit.fontawesome.com/687368f3ee.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/cerebro" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <!--Cabezera-->
+    <div class="header">
+        <div class="imagen1">
+            <img src="img/logo.png" alt="logo pagina" height=150>
+        </div>
+        <div class="texto">
+            <h1>II Jornadas de informática</h1>
+            <p class="inicio2">Valencia, 3 y 4 de Abril de 2021<p>
+                <ul>
+                <li><a href="" class="fa-brands fa-facebook"></a></li>
+                <li><a href="" class="fa-brands fa-instagram"></a></li>
+                <li><a href="" class="fa-brands fa-x-twitter"></a></li>
+                </ul>
+        </div>
+        </div>
+    <!--Menu de la pagina-->
+        <div class="menu">
+            <nav>
+                <ul>
+                <li><a href="">Inicio</a><li>
+                <li><a href="programacion.html">Programación</a><li>
+                <li><a href="Inscripcion.html">Registro a las jornadas</a><li>
+                </ul>
+        </nav>
+        </div>
+
+        <!--Titulo-->
+    <div class="tituloformulario">
+        <h1>Formulario de Inscripcion</h1>
+    </div>
+<div class="formulario">
+    <form action="/datosusuarius.php" id="form1" method="post">
+            <label for="fname">Nombre*</label>
+            <input type="text" id="fname" name="fname" pattern="[A-Za-z]{3,}" required><br><br>
+            <label for="lname">Apellidos*</label>
+            <input  type="text" id="lname" name="lname" pattern="[A-Za-z]{3,}" required ><br><br>
+            <label for="phone">Telefono*</label>
+            <input type="text" id="phone" name="phone" pattern="[0-9]{9}" required ><br><br>
+            <label for="phone">Email*</label>
+            <input type="email" id="Email" required pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9]+\.[a-z]{2,4}"><br><br>
+            <label for="foto">Sube tu foto</label>
+            <input  type="file" id="foto" name="foto"><br><br>
+            <label for="Descrip">Un Poco sobre ti</label><br>
+            <textarea name="Descripcion" id="Descrip" placeholder="Ingrese su Descripcion aqui:" cols="50" rows="10"></textarea><br><br>
+    </form>
+        <fieldset>
+            <legend>Actividad profesional:</legend>
+                <div>
+                    <input type="radio" id="Bachiller" name="radio" value="Bachiller" >
+                    <label for="Bachiller">Estudiante de bachiller</label>
+                </div>
+                <div>
+                    <input type="radio" id="Universidad" name="radio" value="Universidad" >
+                    <label for="Universidad">Estudiante universitario</label>
+                </div>
+                <div>
+                    <input type="radio" id="secundaria" name="radio" value="secundaria">
+                    <label for="secundaria">Profesor de secundaria</label>
+                </div>
+                <div>
+                    <input type="radio" id="p.universidad" name="radio" value="p.universidad">
+                    <label for="p.universidad">Profesor de universidad</label>
+                </div>
+                <div>
+                    <input type="radio" id="otro" name="radio" value="otro">
+                    <label for="otro">Otra actividad profesional</label>
+                </div>
+        </fieldset>
+ </div>    
+<div>
+        <fieldset>
+            <legend>¿En que talleres estás interesado?*:</legend>
+         <div>
+                <input type="checkbox" id="c.cuantica" name="Computacion cuantica">
+                <label for="c.cuantica">Computación Cuántica: la Próxima revolución de la informática</label>
+            </div>
+            <div>
+                <input type="checkbox" id="animacion" name="animacion 3d">
+                 <label for="animacion">Animación 3D en la industria del Videojuego</label>
+            </div>
+             <div>
+                <input type="checkbox" id="moviles" name="Talleres moviles">
+                <label for="moviles">Taller sobre analisis de dispositivos movile</label>
+             </div>
+            <div>
+            <input type="checkbox" id="metodologias" name="metodologias agiles">
+            <label for="metodologias">Metodologias Agiles y Transformación Digital</label>
+            </div>
+             <div>
+            <input type="checkbox" id="realidad_virtual" name="realidad virtual y aumentada">
+            <label for="realidad_virtual">Realidad virtual y aumentada: experiancas asequibles y utiles en educación</label>
+            </div>
+            <div>
+            <input type="checkbox" id="lego" name="Lego League">
+            <label for="lego">First Lego League</label>
+            </div>
+        </fieldset>
+    </div>
+    <div>
+        <form>
+            <label for="dia">Seleccione una de las tres opciones:*</label><br>
+            <select id="dia" name="dias">
+            <option value="1">Asistiré los dias 3 y 4 de febrero</option>
+            <option value="2">Asistiré solo el dia 3 de febrero</option>
+            <option value="3">Asistiré solo el dia 4 de febrero</option>
+            </select>
+          </form>
+    <div>
+        <input type="radio" name="tos" id="radio" value="radio"  checked>
+        <label for="radio">He leido y acepto la politica de privacidad y el aviso legal</label><br>
+    </div>
+    <div>
+        <input type="submit" value="Enviar"></input>
+    </div>
+</div>
+</body>
+</html>

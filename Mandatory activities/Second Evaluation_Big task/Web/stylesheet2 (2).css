@@ -1,0 +1,146 @@
+body{
+margin: 0%;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+/*PREGUNTA UNO */
+/* MENU DE NAVEGACION*/
+.uno{
+border: 2px solid #270000;
+float: left;
+box-sizing: border-box;
+background-color: maroon;
+color: black;
+width: 100%;
+height: 90px;
+}
+.uno div{
+float: left;
+width: 20%;
+}
+img{
+margin: 2px;
+}
+nav{
+    float: left;
+    width: 55%;
+}
+.uno ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.right{
+  border-right: 2px solid black;  
+}
+.uno ul li{
+padding: 10px;
+font-size: 20px;
+}
+.uno ul li i{
+    padding: 2px;
+    margin: 2px;
+}
+.uno ul li a{
+    color: black;
+    text-decoration: none;
+}
+.uno ul li a:hover{
+color: white;
+text-decoration: underline;
+}
+/*PRIMER TEXTO IZQUIERDA*/
+.dos{
+box-sizing: border-box;
+background-color: #eeeeee;
+float: left;
+width: 30%;
+border: 2px solid #270000;
+height: 700px;
+}
+.dos h1{
+margin-top: 20px;
+padding: 20px 20px;
+font-weight: lighter;
+}
+.dos ul{
+   font-size: 20px;
+   list-style: none; 
+   padding: 5px;
+}
+.dos ul i{
+    padding: 10px;
+}
+.dos ul li{
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+/*REGISTRO DEL FORMULARIO*/
+.tres{
+box-sizing: border-box;
+float: left;
+background-color: #eeeeee;
+width: 70%;
+height: 700px;
+border: 2px solid #270000;
+}
+.tres h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 2px solid red;
+}
+.tres p{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    margin-left: 22%;
+    padding: 4px;
+    inline-size: 15%;
+}
+.hidden{
+   color: white;
+}
+
+
+
+
+
+
+/* TABLAS*/
+.cinco{
+    border: #270000;
+    border-radius: 3px;
+    border-style: dotted;
+    float: left;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.seis{
+    border: #270000;
+    border-radius: 3px;
+    border-style: dotted;
+    float: left;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    margin-left: 230px;
+  }

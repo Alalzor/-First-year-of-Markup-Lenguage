@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="examen.xsl" type="text/xsl"?>
+
+
+<ies nombre="CeedCv" web="http://ceedcv.es/">
+    <ciclos>
+        <ciclo horario ="Nocturno">
+            <nombre>Administracion de Sistemas Informaticos en Red</nombre>
+            <grado>Superior</grado>
+            <orden año="2012"/>
+        </ciclo>
+        <ciclo horario ="Diurno">
+            <nombre>Desarollo De aplicaciones web</nombre>
+            <grado>Superior</grado>
+            <orden año="2012"/>
+        </ciclo>
+        <ciclo horario ="Diurno">
+            <nombre>Sistemas Micro Informaticos y Redes</nombre>
+            <grado>Medio</grado>
+            <orden año="2009"/>
+        </ciclo>
+    </ciclos>
+</ies>

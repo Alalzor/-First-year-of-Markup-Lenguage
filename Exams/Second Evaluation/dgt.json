@@ -1,0 +1,45 @@
+
+[ {"Conductores":
+[
+    {
+"Conductor": [
+    {
+        "Permiso": "B",
+        "Nombre": "Jose",
+        "Puntos": "12",
+        "Antiguedad":"20",
+        "Automoviles":[
+            {
+             "Automovil":[
+                     {
+                    "Marca":"SEAT", "Modelo":"Arosa"
+                    },
+                    {
+                    "Marca":"Ford", "Modelo":"Fiesta"
+                    }
+                ]
+             }   
+                        ]
+         },
+        {
+        "Permiso": "A",
+        "Nombre": "Claudia",
+        "Puntos": "15",
+        "Antiguedad":"30",
+        "Automoviles":[
+             {
+             "Automovil":[
+                      {
+                    "Marca":"Derbi", "Modelo":"Variant"
+                     }
+                ]
+             }
+                        ]
+        }
+               ]
+    }
+    
+]
+}
+]
+

@@ -1,0 +1,192 @@
+*{
+    margin:0;
+}
+
+nav{
+    display: flex; /* Añadido para hacer que nav sea un contenedor flex */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 2em;
+    background-color: rgb(245, 213, 4);
+}
+
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    display: flex; /* Añadido para hacer que ul sea un contenedor flex */
+    justify-content: center; /* Centra los elementos de la lista horizontalmente */
+}
+
+nav li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+a:hover .capi{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+main {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 600px; /* Asegúrate de que el contenedor principal tenga una altura. */
+    background-color: rgb(188, 188, 188);
+}
+
+.flex_container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido verticalmente */
+    width: 150px; /* Ancho de la tarjeta */
+    height: 300px; /* Altura de la tarjeta */
+    border: 1px solid black; /* Borde de la tarjeta */
+    position: relative; /
+}
+.up1{
+    background-color: rgb(168, 167, 167);
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+.photo1{
+    position: absolute;
+    background-image: url('Captura de pantalla 2024-04-28 090456.png');
+    background-position: 50%;
+    top: 12.5%; /* Posiciona la imagen en la parte superior de la tarjeta */
+    left: 50%; /* Centra la imagen horizontalmente */
+    transform: translateX(-50%); 
+    width: 70px; /* Ancho de la imagen */
+    height: 70px; /* Altura de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 1px solid black;
+}
+.down1{
+    background-color: rgb(188, 188, 188);
+    width: 100%;
+    height: 75%;
+}
+
+h3{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top:25%;
+    text-align: center;
+}
+
+.boton{
+    width: 80%;
+    height: 17px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(245, 213, 4);
+    position:absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.up2{
+    background-color: rgb(245, 213, 4);
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+.photo2{
+    position: absolute;
+    background-image: url('Captura de pantalla 2024-04-28 090501.png');
+    background-position: 50%;
+    top: 12.5%; /* Posiciona la imagen en la parte superior de la tarjeta */
+    left: 50%; /* Centra la imagen horizontalmente */
+    transform: translateX(-50%); 
+    width: 70px; /* Ancho de la imagen */
+    height: 70px; /* Altura de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 1px solid black;
+}
+.down2{
+    background-color: rgb(188, 188, 188);
+    width: 100%;
+    height: 75%;
+}
+.up3{
+    background-color: rgb(136, 136, 136);
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+.photo3{
+    position: absolute;
+    background-image: url('Captura de pantalla 2024-04-28 090508.png');
+    background-position: 50%;
+    top: 12.5%; /* Posiciona la imagen en la parte superior de la tarjeta */
+    left: 50%; /* Centra la imagen horizontalmente */
+    transform: translateX(-50%); 
+    width: 70px; /* Ancho de la imagen */
+    height: 70px; /* Altura de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 1px solid black;
+}
+.down3{
+    background-color: rgb(188, 188, 188);
+    width: 100%;
+    height: 75%;
+
+}
+.fol{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.intoleft{
+    text-align: center;
+    width: 30%;
+    height: 20%;
+   
+}
+.intoright{
+    text-align: center;
+    width: 30%;
+    height: 20%; 
+}
+
+.textinto{
+    font-size: 12px;
+}
+
+.blue{
+    font-size: 20px;
+    color:blue;
+}
+
+.flex:hover{
+    transform: scale(1.1);
+    transition: ease-in;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px 5px rgb(53, 39, 17);
+}
+
+.flex:hover{
+    transform:rotate(720deg) scale(1);
+    transition: ease-out;
+    transition-duration: 5s;
+    z-index: 3;
+}
+

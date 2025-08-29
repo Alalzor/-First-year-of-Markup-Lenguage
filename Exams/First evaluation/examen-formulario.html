@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examen</title>
+    <link rel="stylesheet" href="stylesheet3.css">
+</head>
+<body>
+    <div class="cabezera">
+        <h1>Formulario de inscripcion al festival</h1>
+    </div>
+    <div class="formulario">
+        <form class="cuerpo" action="registro.php" method="post">
+            <label for="fname">Nombre:</label>
+            <input class="relleno" type="text" id="fname">
+            <label for="apellido">Apellidos:</label>
+            <input  class="relleno" type="text" id="apellido">
+            <label for="email">Email:</label>
+            <input  class="relleno" type="email" name="email" id="email">
+            <label for="telefono">Telefono:</label>
+            <input  class="relleno" type="text"  name="telefono" id="telefono" pattern="[0-9]">
+            <p>Seleciona la hora del concierto de viernes 15 a la que quieres ir</p>
+            <div class="radio">
+                <input type="radio" id="opcion1">
+            <label for="opcion1">20:00 - Izal</label><br>
+                <input type="radio" id="opcion2">
+            <label for="opcion2">22:00 Niños Mutantes</label><br>
+                <input type="radio" id="opcion3">
+            <label for="opcion3">00:00 Love of Lesbian</label>
+            </div>
+            <div class="opciones">
+            <p>Marca si quieres apuntarte a estas actividades opcionales del sabado 16 de marzo</p>
+            <input type="checkbox" id="opcion4">
+            <label for="opcion4">Taller de percusion</label><br>
+            <input type="checkbox" id="opcion5">
+            <label for="opcion5">Sorteo de regalos</label><br><br>
+            <input class="enviar" type="button" name="envio" id="enviar" value="Enviar">
+        </div>
+        </form>
+    </div>
+</body>
+</html>
